@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  max-width: 1920px;
+  background: #fff;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: bold;
+  padding-bottom: 100px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 17px;
+}
+
+.lightbutton {
+  background: rgba(0, 167, 174, 0.1);
+  color: #00a7ae;
+  width: 200px;
+  height: 55px;
+  border-radius: 35px;
+  border: 0;
+  font-size: 16px;
+}
+
+.darkbutton {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  width: 200px;
+  height: 55px;
+  border-radius: 35px;
+  border: 0;
+  font-size: 16px;
+}
+
+/* Services */
+
+.services {
+  padding: 200px;
+}
+
+.intro {
+  text-align: center;
+}
+
+.services .card {
+  box-shadow: none;
+}
+
+.services h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* Experience */
+
+.experience {
+  color: #fff;
+  background: #00a7ae;
+  padding: 200px;
+}
+
+.experience p {
+  max-width: 500px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* Footer */
+
+.footer {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 167, 174, 1) 50%,
+    rgba(255, 255, 255, 1) 50%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.numbers-content {
+  text-align: center;
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0px 15px 20px silver;
+  padding: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.bignumber {
+  font-size: 80px;
+  font-weight: bold;
+  color: #00a7ae;
+}
+
+.footer > p {
+  color: #999999;
+  font-size: 24px;
+}
